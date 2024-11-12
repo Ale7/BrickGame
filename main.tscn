@@ -1,3 +1,10 @@
 [gd_scene format=3 uid="uid://de1ns440m7wxk"]
 
 [node name="Node2D" type="Node2D"]
+position = Vector2(103, 69)
+
+[node name="Polygon2D" type="Polygon2D" parent="."]
+position = Vector2(-81, -63)
+color = Color(0.307677, 0.751169, 0.723342, 1)
+offset = Vector2(50, 50)
+polygon = PackedVector2Array(52, 3, 146, 31, 30, 54)
